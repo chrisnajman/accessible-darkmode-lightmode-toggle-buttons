@@ -1,6 +1,6 @@
 # Accessible Dark Mode / Light Mode Toggle Buttons
 
-This is an updated and improved version of [Accessible Dark Mode Toggle Button)](https://chrisnajman.github.io/accessible-dark-mode-toggle-button).
+This is an updated and improved version of [Accessible Dark Mode Toggle Button](https://chrisnajman.github.io/accessible-dark-mode-toggle-button).
 
 ## Description
 
