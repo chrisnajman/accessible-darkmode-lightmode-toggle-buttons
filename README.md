@@ -41,7 +41,7 @@ To do so:
 
 - Right-click on the page, then click 'Inspect'.
 - Click on 'Applications'.
-- Right-click on "**DARKMODE-DEFAULT-switcher**" or ."**LIGHTMODE-DEFAULT-switcher**"
+- Right-click on "**DARKMODE-DEFAULT-switcher**" or "**LIGHTMODE-DEFAULT-switcher**"
 - Click 'delete'.
 - Force refresh the page (Control+F5).
 
