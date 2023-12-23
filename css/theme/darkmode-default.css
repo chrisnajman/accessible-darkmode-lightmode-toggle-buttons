@@ -1,0 +1,20 @@
+:root {
+    --clr-light-blue: rgb(135, 206, 235);
+    --clr-lightest: white;
+    --clr-mid: #555;
+    --clr-dark: #333;
+    --clr-darker: #222;
+    --clr-darkest: black;
+    --clr-warning: red;
+    --highlight: var(--clr-light-blue);
+    --page-header-shadow: rgba(0, 0, 0, 0.28);
+
+    /* Dark theme (default) */
+    --body-bg: var(--clr-darker);
+    --body-txt: var(--clr-lightest);
+}
+
+.light-theme {
+    --body-bg: var(--clr-lightest);
+    --body-txt: var(--clr-darkest);
+}

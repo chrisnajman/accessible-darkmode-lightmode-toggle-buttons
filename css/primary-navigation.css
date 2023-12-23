@@ -1,0 +1,41 @@
+.primary-navigation {
+    background-color: var(--clr-darkest);
+    padding-block-end: 0.5rem;
+    & ul {
+        max-width: 60rem;
+        margin: var(--horz-center);
+        list-style: none;
+        display: var(--flex);
+        gap: 2rem;
+        align-items: baseline;
+        justify-content: center;
+        padding: 3.2rem 0;
+
+        @media screen and (width <= 600px) {
+            padding-inline-start: 1rem;
+            padding-inline-end: 1rem;
+        }
+
+        & li {
+            flex-shrink: 0;
+        }
+    }
+    & a {
+        color: var(--clr-lightest);
+        text-decoration: none;
+        border-bottom: 5px solid var(--clr-mid);
+        padding-block-end: 0.5rem;
+
+        /* This stops persistent link highlight after mobile view click */
+        @media (hover: hover) {
+            &:hover {
+                border-bottom-color: var(--clr-lightest);
+            }
+        }
+
+        &.active {
+            pointer-events: none;
+            border-bottom-color: var(--clr-lightest);
+        }
+    }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Default Theme: LightMode</title>
+    <meta name="description" content="Theme switcher where light mode is the default option.">
+    <link rel="stylesheet" href="./css/theme/lightmode-default.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="icon" type="image/x-icon" href="./favicon-lightmode.ico">
+    <script src="./js/theme/lightmode-default.js" defer></script>
+</head>
+
+<body>
+    <a href="#main-content" class="element-invisible element-focusable skip-link">Skip to main content</a>
+    <form id="theme-picker" class="theme-picker">
+        <button type="button" id="btn-theme-toggle" class="btn-theme-toggle" aria-pressed>
+            <svg role="img" class="theme-icon hide" id="theme-darkmode">
+                <use href="./img/sprite.svg#moon"></use>
+            </svg>
+            <svg role="img" class="theme-icon" id="theme-lightmode">
+                <use href="./img/sprite.svg#sun"></use>
+            </svg>
+            <span>Dark Mode:</span> <span id="mode" class="mode"></span>
+            <span class="btn-theme-state" aria-hidden="true"></span>
+        </button>
+    </form>
+
+    <div class="page-layout">
+
+        <header class="page-header" id="page-header">
+            <svg role="img" class="icon-logo">
+                <use href="./img/sprite.svg#sun"></use>
+            </svg>
+            <h1>Default Theme: LightMode</h1>
+
+        </header>
+
+        <nav class="primary-navigation">
+            <ul>
+                <li><a href="./index.html">DarkMode</a></li>
+                <li><a href="./lightmode.html" class="active">LightMode</a></li>
+            </ul>
+        </nav>
+        <main class="main">
+            <article class="article" id="main-content" tabindex="0">
+                <h2 class="article-header">Local Storage</h2>
+                <p>Once you've clicked the 'Dark Mode' link and switched it to '<b>on</b>', the theme option is saved to
+                    local
+                    storage. The theme will persist after you refresh the page or close it down and reopen it. Each time
+                    you click the button the theme option is saved.</p>
+                <h3>Clearing local storage</h3>
+                <p>During development, you might want to clear local storage to check that the default state is working.
+                    To do so:</p>
+                <ul>
+                    <li>Right-click on the page, then click 'Inspect'.</li>
+                    <li>Click on 'Applications'.</li>
+                    <li>Right-click on '<strong>LIGHTMODE-DEFAULT-switcher</strong>'.</li>
+                    <li>Click 'delete'.</li>
+                    <li>Force refresh the page (Control+F5).</li>
+                    <li>The default theme will now be restored.</li>
+                </ul>
+                <p><b>Note</b>: the above instructions are for Chrome on Windows 10. However, most browsers follow a
+                    similar pattern.</p>
+            </article>
+        </main>
+        <footer class="page-footer">
+            <ul role="list">
+                <li><a href="https://github.com/chrisnajman/accessible-darkmode-lightmode-toggle-buttons"
+                        target="_blank" rel="noopener noreferrer">GitHub Repository</a></li>
+            </ul>
+        </footer>
+    </div>
+
+</body>
+
+</html>
