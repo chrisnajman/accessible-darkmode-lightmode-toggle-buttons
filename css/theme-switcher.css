@@ -29,10 +29,3 @@
         margin-inline-start: 0.5rem;
     }
 }
-/* Dark mode default option */
-/* [aria-pressed="false"] .btn-theme-state::after {
-    content: ": on";
-}
-[aria-pressed="true"] .btn-theme-state::after {
-    content: ": off";
-} */

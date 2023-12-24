@@ -9,6 +9,7 @@ function themeSwitcherDarkModeDefault() {
   const mode = document.getElementById("mode")
 
   btnThemeToggle.addEventListener("click", (e) => {
+    e.preventDefault()
     root.classList.toggle("light-theme")
 
     const isLightMode = root.classList.contains("light-theme")
