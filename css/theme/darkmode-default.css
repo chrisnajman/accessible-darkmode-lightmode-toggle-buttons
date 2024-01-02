@@ -2,19 +2,33 @@
     --clr-light-blue: rgb(135, 206, 235);
     --clr-lightest: white;
     --clr-mid: #555;
+    --clr-green: rgb(4, 167, 167);
     --clr-dark: #333;
     --clr-darker: #222;
     --clr-darkest: black;
     --clr-warning: red;
+    --clr-orange: orange;
+    --clr-transparent: transparent;
     --highlight: var(--clr-light-blue);
-    --page-header-shadow: rgba(0, 0, 0, 0.28);
 
     /* Dark theme (default) */
     --body-bg: var(--clr-darker);
     --body-txt: var(--clr-lightest);
+    --header-footer-bg: var(--clr-darkest);
+    --header-footer-txt: var(--clr-lightest);
+    --header-footer-border: var(--clr-transparent);
+    --nav-link: var(--clr-lightest);
+    --theme-icon: var(--clr-lightest);
+    --theme-txt: var(--clr-lightest);
 }
 
 .light-theme {
     --body-bg: var(--clr-lightest);
     --body-txt: var(--clr-darkest);
+    --header-footer-bg: var(--clr-lightest);
+    --header-footer-txt: var(--clr-darkest);
+    --header-footer-border: var(--clr-mid);
+    --nav-link: var(--clr-darkest);
+    --theme-icon: var(--clr-orange);
+    --theme-txt: var(--clr-darkest);
 }
