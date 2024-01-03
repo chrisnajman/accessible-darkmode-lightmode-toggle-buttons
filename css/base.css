@@ -168,6 +168,10 @@ button {
     width: 3.6rem;
     height: 3.6rem;
     margin: var(--horz-center);
+
+    &.light {
+        fill: var(--clr-orange);
+    }
 }
 
 .article {
