@@ -13,6 +13,10 @@ Two pages, one featuring a dark mode default theme toggle button, the other a li
 - Keyboard navigation via the `Tab` key focuses the button.
 - Visual cues (icons, on/off text) are provided for sighted users.
 
+### WAVE Web Accessibility Evaluation Tools Report
+
+- [Automated accessibility analysis results](https://wave.webaim.org/report#/https://chrisnajman.github.io/accessible-darkmode-lightmode-toggle-buttons/)
+
 ## CSS
 
 - CSS variables are used for the dark and light themes.
