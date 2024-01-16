@@ -200,7 +200,7 @@ button {
 
 /* Skip link */
 .skip-link {
-    color: var(--clr-lightest);
+    color: var(--body-txt);
     text-decoration: none;
     font-weight: 600;
     padding: 0.5rem 1rem;
